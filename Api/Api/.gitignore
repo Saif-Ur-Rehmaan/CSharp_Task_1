@@ -1,0 +1,8 @@
+# Ignore the entire 'Credientials' folder in the root
+/Credientials/
+
+# Ignore the specific 'FirebaseCredientials.json' file inside the 'bin/Debug/net6.0/Credientials/' folder
+/bin/Debug/net6.0/Credientials/FirebaseCredientials.json
+
+
+/bin/Debug/net6.0/Credientials/FirebaseCredientials.json
