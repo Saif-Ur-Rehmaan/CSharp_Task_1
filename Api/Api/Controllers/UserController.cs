@@ -105,7 +105,7 @@ namespace Api.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(string id)
         {
-           var res  =await http.DeleteAsync($"{UsersUrl}/{id}");
+           var res  =await http.DeleteAsync($"{UsersUrl}/{id}.json");
            return Ok(res);
         }
     }
